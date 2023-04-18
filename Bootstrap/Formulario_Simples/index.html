@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="custom.css">
+    <title>Bootstrap Layout</title>
+</head>
+<body>
+
+    <div class="p-5 bg-dark text-light text-center" id="topo">
+        <h1>Layout com Bootstrap</h1>
+    </div>
+
+    <div class="container p-5 d-flex justify-content-center" id="menu">
+        <a class="btn btn-dark mx-2" href="">HOME</a>
+        <a class="btn btn-dark mx-2" href="">PRODUTOS</a>
+        <a class="btn btn-dark mx-2" href="">SERVIÇOS</a>
+        <a class="btn btn-dark mx-2" href="">CONTATOS</a>
+        <a class="btn btn-dark mx-2" href="">SOBRE</a>
+    </div>
+
+    <div class="container p-5" id="conteudo">
+        <h3 class="titulo text-center mb-4"> Formulário de Cadastro </h3>
+        <div class="my-5 row">
+            <div class="col-10">
+              <label for="Nome" class="form-label">Nome Completo</label>
+              <input type="text" class="form-control" id="Nome">
+            </div>
+            <div class="col-2">
+              <label for="Idade" class="form-label">Idade</label>
+              <input type="number" class="form-control" id="Idade">
+            </div>
+        </div>
+        <div class="my-5 row">
+            <div class="col-1">
+            <label for="Sexo" class="form-label">Sexo</label>  
+              <input type="text" class="form-control" id="Sexo">
+            </div>
+            <div class="col-7">
+              <label for="Cidade" class="form-label">Cidade</label>
+              <input type="text" class="form-control" id="Cidade">
+            </div>
+            <div class="col-4">
+              <label for="Estado" class="form-label">Estado</label>
+              <input type="text" class="form-control" id="Estado">
+            </div>
+        </div>
+        <div class="my-5 row">
+            <div class="col-6">
+              <label for="inputPassword" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+            <div class="col-6">
+              <label for="inputPassword" class="form-label">Confirmar Senha</label>
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+        </div>
+        <div class="botoes d-flex justify-content-center">
+            <div class="btn btn-primary text-light text-center mx-2">Confirmar <i class="bi bi-check"></i></div>
+            <div class="btn btn-danger text-light text-center mx-2">Limpar <i class="bi bi-x"></i></div>
+        </div> 
+    </div>
+
+    <footer class="container-fluid p-5" id="rodape">
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
